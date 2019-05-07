@@ -1,0 +1,26 @@
+{
+  "host": {
+    "title": "Host",
+    "type": "string",
+    "default": "https://unlim.tv/",
+    "required": true
+  },
+  "email": {
+    "title": "Email",
+    "type": "string",
+    "default": "",
+    "required": true
+  },
+  "password": {
+    "title": "Password",
+    "type": "string",
+    "default": "",
+    "required": true
+  },
+  "style": {
+    "title": "Display Style",
+    "type": "select",
+    "options": ["Channels", "Filters", "Catalogs"],
+    "default": "Channels"
+  }
+}
